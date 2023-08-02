@@ -185,7 +185,7 @@ section {
 }
 
 .box3_2 .list li a img {
-    margin-left: 10px;
+
     width: 90px;
 }
 
@@ -200,8 +200,6 @@ section {
 }
 
 .box5 {
-    height: 350px;
-    padding: 40px;
     background-color: #29ABE2;
     color: white;
 }
@@ -211,6 +209,7 @@ section {
     margin-bottom: 20px;
 }
 
+.box5,
 .box6 {
     height: 350px;
     padding: 40px;
@@ -295,7 +294,7 @@ footer {
     }
 
     .menu li a {
-        font-size: 1rem;
+        font-size: 1dvh;
         margin-left: 0;
     }
 
@@ -311,12 +310,38 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .txt {
+        font-size: 1.3rem;
+        padding: 0;
+    }
+
+    .box1 {
+        height: 250px;
+    }
+
     .box1,
     .box2_1,
     .box3_1 {
         display: grid;
         text-align: center;
         align-items: center;
+    }
+
+    .box2_2,
+    .box3_2,
+    .box5,
+    .box6,
+    .foot_inner {
+        padding: 20px;
+    }
+
+
+    .box2_2 ul li {
+        line-height: 1.7;
+    }
+
+    .box2_2 ul li p {
+        margin-right: 10px;
     }
 
     .foot_inner {
